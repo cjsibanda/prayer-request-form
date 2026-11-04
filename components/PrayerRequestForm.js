@@ -38,6 +38,15 @@ export default function PrayerRequestForm() {
                         <option value="other">Other</option>
                     </select>
                 </div>
+
+                <div className="form-group">
+                    <label htmlFor="request">Your Prayer Request</label>
+                    <textarea 
+                      id="request"
+                      name="request"
+                      rows="5"
+                    />
+                </div>
             </form>
         </section>
     )
