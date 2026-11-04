@@ -27,7 +27,7 @@ export default function PrayerRequestForm() {
                     />
                 </div>
 
-                <form className="form-group">
+                <div className="form-group">
                     <label htmlFor="category">Prayer Category</label>
                     <select id="category" name="category">
                         <option value="">Select a category</option>
@@ -37,7 +37,7 @@ export default function PrayerRequestForm() {
                         <option value="guidance">Guidance and Direction</option>
                         <option value="other">Other</option>
                     </select>
-                </form>
+                </div>
             </form>
         </section>
     )
