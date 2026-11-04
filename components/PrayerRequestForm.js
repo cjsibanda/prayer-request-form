@@ -47,6 +47,10 @@ export default function PrayerRequestForm() {
                       rows="5"
                     />
                 </div>
+
+                <button type="submit">
+                    Submit Prayer Request
+                </button>
             </form>
         </section>
     )
