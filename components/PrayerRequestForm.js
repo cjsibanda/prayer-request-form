@@ -1,5 +1,5 @@
 /************************************
-* CJ 11/3/2026
+* CJ 11/4/2026
 * PrayerRequestForm.js
 * has form with name, email, request
 *************************************/
@@ -15,6 +15,15 @@ export default function PrayerRequestForm() {
                       type="text"
                       id="name"
                       name="name"
+                    />
+                </div>
+
+                <div className="form-group">
+                    <label>City:</label>
+                    <input
+                      type="text"
+                      id="city"
+                      name="city"
                     />
                 </div>
 
