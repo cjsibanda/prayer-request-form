@@ -4,7 +4,6 @@
 * connects components to the homepage
 * imported styling from styles/main.css
 **************************************/
-import "../styles/main.css";
 import Header from "../components/Header";
 import PrayerRequestForm from "@/components/PrayerRequestForm";
 
