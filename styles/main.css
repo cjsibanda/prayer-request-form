@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f5;
-    margin: 9;
+    margin: 0;
     padding: 0;
     color: #333;
 }
@@ -28,4 +28,77 @@ body {
     font-size: 16px;
 }
 
+/* Form Container */
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Form heading */
+.form-container h2 {
+    text-align: center;
+    color: #354f52;
+}
+
+.form-container p {
+    text-align: center;
+    color: #666;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input boxes and dropdown */
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Text area */
+.form-container textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #52796f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+.form-container button:hover {
+    background-color: #354f52;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
