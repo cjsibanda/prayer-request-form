@@ -11,3 +11,21 @@ body {
     padding: 0;
     color: #333;
 }
+
+/* Header styling */
+.header {
+    background-color: #8191b3;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+
