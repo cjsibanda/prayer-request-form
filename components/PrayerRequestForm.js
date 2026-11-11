@@ -15,6 +15,8 @@ export default function PrayerRequestForm() {
                       type="text"
                       id="name"
                       name="name"
+                      required
+                      minLength="2"
                     />
                 </div>
 
