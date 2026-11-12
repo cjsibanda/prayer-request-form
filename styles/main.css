@@ -14,7 +14,7 @@ body {
 
 /* Header styling */
 .header {
-    background-color: #8191b3;
+    background-color: #8191b4;
     color: white;
     text-align: center;
     padding: 30px;
@@ -35,13 +35,13 @@ body {
     padding: 25px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
 }
 
 /* Form heading */
 .form-container h2 {
     text-align: center;
-    color: #354f52;
+    color: #354f53;
 }
 
 .form-container p {
