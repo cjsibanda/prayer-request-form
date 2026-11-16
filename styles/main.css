@@ -1,5 +1,5 @@
 /**********************************************
-* CJ 11/10/2026
+* CJ 11/16/2026
 * CSS Styling for Header and PrayerRequestForm
 *
 **********************************************/
@@ -35,7 +35,7 @@ body {
     padding: 25px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Form heading */
@@ -92,7 +92,7 @@ body {
 
 /* Button hover */
 .form-container button:hover {
-    background-color: #354f52;
+    background-color: #2f484b;
 }
 
 /* Mobile screen adjustments */
