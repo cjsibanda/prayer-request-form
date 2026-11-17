@@ -1,5 +1,5 @@
 /*************************************
-* CJ 11/10/2020
+* CJ 11/10/2026
 * index.js
 * connects components to the homepage
 * imported styling from styles/main.css
