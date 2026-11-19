@@ -62,6 +62,9 @@ export default function PrayerRequestForm() {
                       id="request"
                       name="request"
                       rows="5"
+                      required
+                      minLength={10}
+                      maxLength={3000}
                     />
                 </div>
 
