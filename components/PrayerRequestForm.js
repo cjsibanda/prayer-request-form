@@ -1,5 +1,5 @@
 /************************************
-* CJ 11/4/2026
+* CJ 11/19/2026
 * PrayerRequestForm.js
 * has form with name, email, request
 *************************************/
@@ -16,7 +16,9 @@ export default function PrayerRequestForm() {
                       id="name"
                       name="name"
                       required
-                      minLength="4"
+                      minLength={4}
+                      maxLegth={100}
+                      autoComplete="name"
                     />
                 </div>
 
@@ -26,6 +28,8 @@ export default function PrayerRequestForm() {
                       type="text"
                       id="city"
                       name="city"
+                      maxLength={100}
+                      autoComplete="address-level2"
                     />
                 </div>
 
@@ -35,6 +39,8 @@ export default function PrayerRequestForm() {
                       type="email"
                       id="email"
                       name="email"
+                      maxLength={254}
+                      autoComplete="email"
                     />
                 </div>
 
