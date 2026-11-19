@@ -3,6 +3,9 @@
 * CSS Styling for Header and PrayerRequestForm
 *
 **********************************************/
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -10,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Header styling */
@@ -17,15 +21,17 @@ body {
     background-color: #8191b4;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 35px 20px;
 }
 
 .header h1 {
-    margin-bottom: 10px;
+    margin: 0 0 10px;
+    font-size: 28px
 }
 
 .header p {
     font-size: 16px;
+    margin: 0;
 }
 
 /* Form Container */
