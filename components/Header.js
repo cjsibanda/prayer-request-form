@@ -8,7 +8,7 @@ export default function Header() {
           <div className="header-content">
             <h1>Request Form</h1>
             <p>
-                Please fill out the form
+                Fill out the form below
             </p>
           </div>
         </header>
