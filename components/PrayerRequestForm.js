@@ -7,7 +7,7 @@ export default function PrayerRequestForm() {
     return (
         <section className="form-container">
             <h2>Submit a Request</h2>
-            <p>Share what's on your heart..</p>
+            <p>Tell us what's on your heart..</p>
             <form>
                 <div>
                     <label>Full Name</label>
